@@ -1445,18 +1445,18 @@ footer {
 .nav-brand::before, .footer-brand::before {
   content: '' !important; display: block !important; flex-shrink: 0 !important; position: static !important;
   filter: none !important; clip-path: none !important;
-  width: 87px !important; height: 80px !important; margin-right: 14px !important;
-  background: url('../assets/xtx-x.png') no-repeat center center !important;
+  width: 124px !important; height: 80px !important; margin-right: 0 !important;
+  background: url('../assets/xtx-logo-2026.png') no-repeat center center !important;
   background-size: contain !important;
 }
 .nav-brand::after, .footer-brand::after {
-  content: '' !important; display: block !important; flex-shrink: 1 !important; position: static !important;
+  content: none !important; display: none !important; flex-shrink: 1 !important; position: static !important;
   filter: none !important; clip-path: none !important;
   width: 275px !important; height: 12px !important; max-width: 40vw !important; margin-bottom: 6px !important;
   background: url('../assets/xtx-word.png') no-repeat left center !important;
   background-size: contain !important;
 }
-.footer-brand::before { width: 76px !important; height: 70px !important; margin-right: 12px !important; }
+.footer-brand::before { width: 108px !important; height: 70px !important; margin-right: 0 !important; }
 .footer-brand::after { width: 240px !important; height: 10px !important; margin-bottom: 5px !important; }
 .pageturn{position:fixed;top:50%;transform:translateY(-50%);width:34px;height:92px;background:rgba(50,95,148,.30);border:1px solid rgba(111,163,221,.35);display:flex;align-items:center;justify-content:center;color:#6FA3DD;text-decoration:none;z-index:900;transition:background .2s,color .2s,width .2s}
 .pageturn:hover{background:#325F94;color:#fff;width:42px}
